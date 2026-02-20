@@ -1,0 +1,7 @@
+policy_annual_premium,insured_age,incident_severity,number_of_vehicles_involved,property_damage,fraud_reported
+1400,35,Low,1,No,No
+2500,45,High,2,Yes,Yes
+1800,29,Medium,1,No,No
+3000,50,High,3,Yes,Yes
+1200,23,Low,1,No,No
+2200,40,Medium,2,Yes,Yes
