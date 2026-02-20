@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ClaimWatch AI</title>
+</head>
+<body>
+    <h2>CLAIMWATCH AI – Insurance Fraud Detection</h2>
+
+    <form action="/predict" method="post">
+        Premium: <input type="text" name="premium"><br><br>
+        Age: <input type="text" name="age"><br><br>
+        Severity (0=Low,1=Medium,2=High): <input type="text" name="severity"><br><br>
+        Vehicles: <input type="text" name="vehicles"><br><br>
+        Property Damage (0=No,1=Yes): <input type="text" name="damage"><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+
+</body>
+</html>
